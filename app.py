@@ -15,8 +15,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🌦️ Weather Forecast App")
-st.write("Check current weather, rain chances, and upcoming forecasts.")
+
 
 # List of cities
 cities = [
