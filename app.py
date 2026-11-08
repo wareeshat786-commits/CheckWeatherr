@@ -14,7 +14,22 @@ st.set_page_config(
     page_icon="checkweatherr.PNG",
     layout="wide"
 )
+st.title("🌦️ Weather Forecast App")
 
+st.markdown("""
+### Welcome to your daily weather companion! ☀️
+
+Stay one step ahead of the weather. Get real-time weather
+updates, check the chances of rain, and explore upcoming
+forecasts for your favourite cities.
+
+Whether you're planning your day or preparing for a trip,
+we've got the forecast covered!
+
+**Select your city below to get started.**
+""")
+
+st.divider()
 
 
 # List of cities
