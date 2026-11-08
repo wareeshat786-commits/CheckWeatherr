@@ -9,7 +9,11 @@ except Exception:
 
 
 # Set up the app
-st.set_page_config(page_title="Weather App", page_icon="🌦️", layout="wide")
+st.set_page_config(
+    page_title="Weather Forecast App",
+    page_icon="checkweatherr.PNG",
+    layout="wide"
+)
 
 st.title("🌦️ Weather Forecast App")
 st.write("Check current weather, rain chances, and upcoming forecasts.")
